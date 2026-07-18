@@ -1,48 +1,72 @@
-# NEUB CSE Management App
-Professional React + Firebase + Capacitor Project
+# NEUB CSE Management App  
+Professional React + Firebase + Capacitor Project  
 
-## Included
+## Overview  
+The NEUB CSE Management App is a centralized academic management system built for the Department of Computer Science and Engineering at North East University Bangladesh.  
+It provides role-based dashboards for students, teachers, and admins, with secure authentication and real-time data management.
 
-- Professional home page and responsive interface
-- Hamburger menu for all navigation
-- Real email login and registration
-- Account recovery system
-- Student registration with year and semester
-- Teacher/Admin registration with secret code
-- Student dashboard and semester-based access
-- Teacher dashboard and teacher-owned materials/assignments
-- Admin dashboard and full monitoring
-- Admin-only payment add/edit/view system
-- Notices, class routine, materials, assignments, submissions and activity pages
-- Firestore security rules
-- Capacitor Android setup
+## Included Features  
 
-## Run
+### Interface  
+- Professional home page and responsive design  
+- Hamburger menu for navigation  
 
-```powershell
-npm install
-npm run dev
-```
+### Authentication  
+- Real email login and registration  
+- Account recovery system  
+- Student registration with year and semester  
+- Teacher/Admin registration with secret code  
 
+### Student Dashboard  
+- Semester-based access to notices, routines, materials, and assignments  
+- Payment status tracking with email verification  
+- Personal activity log  
 
-live link:
+### Teacher Dashboard  
+- Create, edit, and publish assignments  
+- Upload lecture materials (PDFs, slides, notes)  
+- Manage student submissions  
 
-https://neub-cse-management.onrender.com/
+### Admin Dashboard  
+- Full monitoring and control center  
+- Add, edit, and view semester and society payments  
+- Manage users, routines, and notices  
 
+### Academic Modules  
+- Notices  
+- Class Routine  
+- Materials  
+- Assignments  
+- Submissions  
+- Activity Tracking  
 
+## Technologies Used  
+- Frontend: React  
+- Backend: Firebase Firestore  
+- Authentication: Firebase Auth  
+- Android Integration: Capacitor  
+- Security: Firestore Rules  
 
-## Convert to Android
+## Security Highlights  
+- Role-based access control  
+- Secret code verification for teachers and admins  
+- Email confirmation for payments  
+- Firestore security rules for data protection  
 
-```powershell
-npm run build
-npx cap add android
-npx cap sync android
-npx cap open android
-```
+## Android Setup  
+Integrated with Capacitor for Android deployment:  
+- `npx cap init`  
+- `npx cap add android`  
+- `npx cap copy`  
+- `npx cap open android`  
 
-## Secret Codes
+## Future Scope  
+- Attendance tracking (QR or biometric)  
+- In-app chat between students and teachers  
+- Analytics dashboard for performance insights  
+- LMS integration (Moodle, Google Classroom)  
+- Push notifications for instant updates    
 
-```txt
-Teacher: TEACHER2026
-Admin: ADMIN2026
-```
+## Conclusion  
+The NEUB CSE Management App enhances efficiency, transparency, and security across academic operations.  
+It is a complete professional solution for modern university management.
